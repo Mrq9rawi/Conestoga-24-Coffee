@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: stix_two_text;
+	src: url(Matiral/STIXTwoText-MediumItalic.ttf);
+}
+
+body {
+	font-family: stix_two_text;
+	background-color: #f1c9c9;
+	margin: 0;
+}
+
+
+#wrapper {
+	color: #000066;
+	background-color: #f1c9c9;
+
+}
+
+#max_width {
+	max-width: 1080px;
+	margin: auto;
+}
+
+
+
+nav {
+	background-color: #f7f4f1;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	padding-left: 120px;
+}
+
+.logo {
+	width: 70px;
+}
+
+nav a {
+	text-decoration: none;
+	position: relative;
+	left: 100px;
+	margin-right: 30px;
+	font-size: 30px;
+}
+
+.contact_card {
+	width: 300px;
+	height: 60px;
+	position: relative;
+	left: 300px;
+}
+
+nav a:link {
+	color: black;
+}
+
+nav a:visited {
+	color: #574a4a;
+}
+
+nav a:hover {
+	color: #8ea4cf;
+}
+
+aside {
+	float: left;
+	position: fixed;
+}
+
+main {
+	text-align: center;
+	background-color: #f1c9c9;
+
+}
+
+.home_banner {
+	width: 700px;
+	height: 400px;
+	margin-left: 500px;
+}
+
+.home_aside {
+	height: 600px;
+	width: 500px;
+}
+
+.about_p {
+	width: 700px;
+	height: 300px;
+	font-weight: bold;
+	margin: auto;
+	background-color: white;
+}
+
+.about_p p {
+	padding-top: 75px;
+	width: 500px
+}
+
+.about_menu_div,
+.about_contact_div {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	background-color: white;
+	margin: 10px 0;
+	border-radius: 20px;
+}
+
+.about_menu_div:hover {
+	width: 150px;
+	transition: 0.5s ease-in-out;
+	font-size: larger;
+}
+
+
+.about_contact_div:hover {
+	width: 150px;
+	transition: 0.5s;
+	font-size: larger;
+}
+
+.about_menu_button,
+.about_contact_button {
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+}
+
+
+
+
+
+table,
+tr,
+td,
+th {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+table {
+	display: inline-block;
+	caption-side: top;
+}
+
+caption {
+	display: none;
+}
+
+footer {
+	font-size: 70%;
+	text-align: center;
+	padding: 20px;
+	background-color: #ffe8d6;
+}
