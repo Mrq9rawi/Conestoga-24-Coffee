@@ -68,7 +68,6 @@ main {
 }
 
 .deal_of_day {
-	float: left;
 	position: absolute;
 	width: 540px;
 	height: 400px;
@@ -90,43 +89,76 @@ main {
 
 .home_banner_div {
 	width: 1080px;
-	border: 5px solid black;
+	/* border: 5px solid black; */
 	background-color: #ffe8d6;
 	text-align: center;
+	margin-top: 10px;
 }
 
 .home_banner {
 	width: 540px;
 	height: 400px;
 	position: relative;
-	left: 266px;
+	left: 270px;
 	padding: 0;
 }
 
 .home_findus_div {
 	width: 1080px;
-	border: 5px solid black;
+	/* border: 5px solid black; */
 	background-color: #ffe8d6;
+	margin-bottom: 10px;
 }
 
 .home_findus {
 	width: 540px;
 	height: 400px;
 	position: relative;
-	right: 265px;
+	right: 270px;
 }
 
-.about_p {
-	width: 700px;
-	height: 300px;
-	font-weight: bold;
-	margin: auto;
-	background-color: white;
+.about1 {
+	width: 1080px;
+	margin-top: 10px;
+	/* border: 5px solid black; */
+	background-color: #ffe8d6;
 }
 
-.about_p p {
-	padding-top: 75px;
-	width: 500px
+.about_p1 {
+	position: absolute;
+	width: 540px;
+	height: 400px;
+	/* padding-top: 50px; */
+	font-size: 26px;
+	padding-right: 5px;
+}
+
+.about_img1 {
+	width: 540px;
+	height: 400px;
+	position: relative;
+	left: 270px;
+}
+
+.about2 {
+	width: 1080px;
+	/* border: 5px solid black; */
+	background-color: #ffe8d6;
+}
+
+.about_p2 {
+	position: absolute;
+	width: 540px;
+	height: 400px;
+	font-size: 26px;
+	padding-right: 5px;
+}
+
+.about_img2 {
+	width: 540px;
+	height: 400px;
+	position: relative;
+	left: 270px;
 }
 
 .about_menu_div,
