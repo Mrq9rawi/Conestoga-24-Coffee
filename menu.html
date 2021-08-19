@@ -21,108 +21,140 @@
 		</nav>
 		<div id="max_width">
 			<main>
-				<h2>Check out our menu for the fresh Coffee </h2>
-				<table class="drinks_menu">
-					<caption>Drinks</caption>
-					<tr>
-						<th>Drink</th>
-						<th>Price</th>
-					</tr>
-					<tr>
-						<td>Coffee</td>
-						<td>$2.00</td>
-					</tr>
-					<tr>
-						<td>Espresso</td>
-						<td>$2.75</td>
-					</tr>
-					<tr>
-						<td>cappuccino</td>
-						<td>$3.00</td>
-					</tr>
-					<tr>
-						<td>Latte</td>
-						<td>3.00$</td>
-					</tr>
-					<tr>
-						<td>Juice</td>
-						<td>$2.00</td>
-					</tr>
-					<tr>
-						<td>Fountain Pop</td>
-						<td>$1.75</td>
-					</tr>
-					<tr>
-						<td colspan="2">
-							Milk, Cream and Sugar served at the table.
-						</td>
-					</tr>
-				</table>
-				<table class="breakfast_menu">
-					<caption>Breakfast </caption>
-					<tr>
-						<th>Breakfast </th>
-						<th>Price</th>
-					</tr>
-					<tr>
-						<td>Sausage and Egger Breakfast Sandwich</td>
-						<td>$5.00</td>
-					</tr>
-					<tr>
-						<td>Bacon and Egger Breackfast Sandwich</td>
-						<td>$5.00</td>
-					</tr>
-					<tr>
-						<td>2 Eggs Over Easy</td>
-						<td>$6.00</td>
-					</tr>
-					<tr>
-						<td>Western Omelet</td>
-						<td>$7.00</td>
-					</tr>
-					<tr>
-						<td>Eggs Benedict</td>
-						<td>$11.00</td>
-					</tr>
-					<tr>
-						<td colspan="2">Add $3.00 to make it a Combo!.<br>Combo Consists of a Drinks and HomeFires </td>
-					</tr>
-				</table>
-				<table class="lunch_menu">
-					<caption>Lunch</caption>
-					<tr>
-						<th>Lunch</th>
-						<th>Price</th>
-					</tr>
-					<tr>
-						<td>BLT With Fries</td>
-						<td>$7.00</td>
-					</tr>
-					<tr>
-						<td>Turkey Bacon Clubhouse</td>
-						<td>$9.00</td>
-					</tr>
-					<tr>
-						<td>Chicken Pesto Grilled Panini</td>
-						<td>$7.00</td>
-					</tr>
-					<tr>
-						<td>Steak Sandwich</td>
-						<td>$11.00</td>
-					</tr>
-					<tr>
-						<td>Vegi Bowl</td>
-						<td>$9.00</td>
-					</tr>
-					<tr>
-						<td colspan="2">Add $3.00 to make it a Combo!.<br>Lunch combos include French Fries </td>
-					</tr>
-				</table>
+				<div class="menu">
+					<h2>Check out our menu for the fresh Coffee </h2>
+					<div class="tab">
+						<button class="tablinks" onclick="openMenu(event, 'drinks')"> <img src="images/hot_drink.jpeg"
+								class="tabImg" title="Click to see Drinks" alt="Drinks"></button>
+						<button class="tablinks" onclick="openMenu(event, 'breakfast')"><img src="images/breakfast.jpeg"
+								class="tabImg" title="Click to see Breakfast" alt="Breakfast"></button>
+						<button class="tablinks" onclick="openMenu(event, 'lunch')"><img src="images/lunch.jpeg"
+								class="tabImg" title="Click to see Lunch" alt="Lunch"></button>
+					</div>
+					<div id="drinks" class="tabcontent">
+						<table class="drinks_menu">
+							<tr>
+								<th>Drink</th>
+								<th>Price</th>
+							</tr>
+							<tr>
+								<td>Coffee</td>
+								<td>$2.00</td>
+							</tr>
+							<tr>
+								<td id="espresso">Espresso</td>
+								<td><del>$2.75</del> → $1.75 <br><small>offer ends in 24 hours</small></td>
+							</tr>
+							<tr>
+								<td>cappuccino</td>
+								<td>$3.00</td>
+							</tr>
+							<tr>
+								<td>Latte</td>
+								<td>3.00$</td>
+							</tr>
+							<tr>
+								<td>Juice</td>
+								<td>$2.00</td>
+							</tr>
+							<tr>
+								<td>Fountain Pop</td>
+								<td>$1.75</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									Milk, Cream and Sugar served at the table.
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div id="breakfast" class="tabcontent">
+						<table class="breakfast_menu">
+							<tr>
+								<th>Breakfast </th>
+								<th>Price</th>
+							</tr>
+							<tr>
+								<td>Sausage and Egger Breakfast Sandwich</td>
+								<td>$5.00</td>
+							</tr>
+							<tr>
+								<td>Bacon and Egger Breackfast Sandwich</td>
+								<td>$5.00</td>
+							</tr>
+							<tr>
+								<td>2 Eggs Over Easy</td>
+								<td>$6.00</td>
+							</tr>
+							<tr>
+								<td>Western Omelet</td>
+								<td>$7.00</td>
+							</tr>
+							<tr>
+								<td>Eggs Benedict</td>
+								<td>$11.00</td>
+							</tr>
+							<tr>
+								<td colspan="2">Add $3.00 to make it a Combo!.<br>Combo Consists of a Drinks and
+									HomeFires
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div id="lunch" class="tabcontent">
+						<table class="lunch_menu">
+							<tr>
+								<th>Lunch</th>
+								<th>Price</th>
+							</tr>
+							<tr>
+								<td>BLT With Fries</td>
+								<td>$7.00</td>
+							</tr>
+							<tr>
+								<td>Turkey Bacon Clubhouse</td>
+								<td>$9.00</td>
+							</tr>
+							<tr>
+								<td>Chicken Pesto Grilled Panini</td>
+								<td>$7.00</td>
+							</tr>
+							<tr>
+								<td>Steak Sandwich</td>
+								<td>$11.00</td>
+							</tr>
+							<tr>
+								<td>Vegi Bowl</td>
+								<td>$9.00</td>
+							</tr>
+							<tr>
+								<td colspan="2">Add $3.00 to make it a Combo!.<br>Lunch combos include French Fries
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
 			</main>
 		</div>
 		<footer>
 			Copyright&copy;Conestoga 24 Coffee
 		</footer>
+	</div>
+	<script>
+		function openMenu(evt, menuName) {
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			document.getElementById(menuName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
+	</script>
 	</div>
 </body>
 
