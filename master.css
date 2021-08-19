@@ -9,14 +9,13 @@
 
 body {
 	font-family: stix_two_text;
-	background-color: #f1c9c9;
+	background-color: #b66e48;
 	margin: 0;
 }
 
 
 #wrapper {
-	color: #000066;
-	background-color: #f1c9c9;
+	background-color: #b66e48;
 
 }
 
@@ -25,13 +24,12 @@ body {
 	margin: auto;
 }
 
-
-
 nav {
-	background-color: #f7f4f1;
+	background-color: #ffe8d6;
 	letter-spacing: 0.1em;
 	font-weight: bold;
 	padding-left: 120px;
+	margin-top: 30px;
 }
 
 .logo {
@@ -65,26 +63,57 @@ nav a:hover {
 	color: #8ea4cf;
 }
 
-aside {
-	float: left;
-	position: fixed;
-}
-
 main {
 	text-align: center;
-	background-color: #f1c9c9;
+}
 
+.deal_of_day {
+	float: left;
+	position: absolute;
+	width: 540px;
+	height: 400px;
+	padding-top: 50px;
+}
+
+.deal_of_day h2 {
+	font-size: 45px;
+}
+
+.deal_of_day p {
+	font-size: 40px;
+}
+
+.deal_of_day a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.home_banner_div {
+	width: 1080px;
+	border: 5px solid black;
+	background-color: #ffe8d6;
+	text-align: center;
 }
 
 .home_banner {
-	width: 700px;
+	width: 540px;
 	height: 400px;
-	margin-left: 500px;
+	position: relative;
+	left: 266px;
+	padding: 0;
 }
 
-.home_aside {
-	height: 600px;
-	width: 500px;
+.home_findus_div {
+	width: 1080px;
+	border: 5px solid black;
+	background-color: #ffe8d6;
+}
+
+.home_findus {
+	width: 540px;
+	height: 400px;
+	position: relative;
+	right: 265px;
 }
 
 .about_p {
